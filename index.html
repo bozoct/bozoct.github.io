@@ -102,11 +102,11 @@
 
     <tr onmouseout="esketch_stop()" onmouseover="esketch_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one" style="display:flex; align-items:center; justify-content:center;">
-          <div class="two" id='esketch_image' style="width:100%; top:50%; transform:translateY(-50%);">
-            <img src='myimages/work/esketch_res.png' width=100%>
+        <div class="one" style="position:relative; display:flex; align-items:center; justify-content:center; width:100%;">
+          <div class="two" id='esketch_image' style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:10;">
+            <img src='myimages/work/esketch_res.png' style="max-width:100%; max-height:100%; object-fit:contain;">
           </div>
-          <img src='myimages/work/esketch_rgb.png' width=100%>
+          <img src='myimages/work/esketch_rgb.png' style="max-width:100%; height:auto;">
         </div>
         <script type="text/javascript">
           function esketch_start() {
@@ -283,7 +283,7 @@
 
     <tr onmouseout="sct_stop()" onmouseover="sct_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
+        <div class="one" style="display:flex; align-items:center; justify-content:center;">
           <div class="two" id='sct_image'>
             <img src='myimages/work/sci_task.png' width=100%>
           </div>
