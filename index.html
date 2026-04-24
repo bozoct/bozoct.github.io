@@ -57,7 +57,54 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    
+            <tr onmouseout="dv_stop()" onmouseover="dv_start()">
+      <!-- bgcolor="#ffffd0" -->
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dv_image'>
+            <img src='myimages/work/dv_sample.png' width=100%>
+          </div>
+          <img src='myimages/work/dv_sample.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function dv_start() {
+            document.getElementById('dv_image').style.opacity = "1";
+          }
 
+          function dv_stop() {
+            document.getElementById('dv_image').style.opacity = "0";
+          }
+          dv_stop()
+        </script>
+      </td>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <!-- <a href="https://cat-4d.github.io/"> -->
+			<span class="papertitle">DarkVision: A benchmark and study for low-light image/video analysis</span>
+        <!-- </a> -->
+        <br>
+				<strong>Bo Zhang</strong>,
+        Yuchen Guo,
+        Runzhao Yang,
+        Zhihong Zhang,
+        Jiayi Xie,
+        Jinli Suo,
+        Qionghai Dai
+        <!-- <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ&hl=en">Jinli Suo</a>,
+        <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=en">Qionghai Dai</a> -->
+        <br>
+        <em>CVM</em>, 2026
+        <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+        <br>
+        <a href="https://huggingface.co/datasets/bozoct/DarkVision">Dataset link</a>
+        <p></p>
+        <p>
+          Building a large-scale benchmark for low-light image and video perception, including enhancement and object detection.
+        </p>
+      </td>
+    </tr>
+    
     <tr onmouseout="esci_stop()" onmouseover="esci_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -231,55 +278,6 @@
         </p>
       </td>
     </tr>
-
-
-    <tr onmouseout="dv_stop()" onmouseover="dv_start()">
-      <!-- bgcolor="#ffffd0" -->
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='dv_image'>
-            <img src='myimages/work/dv_sample.png' width=100%>
-          </div>
-          <img src='myimages/work/dv_sample.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function dv_start() {
-            document.getElementById('dv_image').style.opacity = "1";
-          }
-
-          function dv_stop() {
-            document.getElementById('dv_image').style.opacity = "0";
-          }
-          dv_stop()
-        </script>
-      </td>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <!-- <a href="https://cat-4d.github.io/"> -->
-			<span class="papertitle">DarkVision: a benchmark for low-light image/video perception</span>
-        <!-- </a> -->
-        <br>
-				<strong>Bo Zhang</strong>,
-        Yuchen Guo,
-        Runzhao Yang,
-        Zhihong Zhang,
-        Jiayi Xie,
-        Jinli Suo,
-        Qionghai Dai
-        <!-- <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ&hl=en">Jinli Suo</a>,
-        <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=en">Qionghai Dai</a> -->
-        <br>
-        To be published in <em>CVM</em>
-        <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
-        <br>
-        <a href="https://huggingface.co/datasets/bozoct/DarkVision">Dataset link</a>
-        <p></p>
-        <p>
-          Building a large-scale benchmark for low-light image and video perception, including enhancement and object detection.
-        </p>
-      </td>
-    </tr>
-
 
     <tr onmouseout="sct_stop()" onmouseover="sct_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
